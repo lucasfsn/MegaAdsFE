@@ -10,7 +10,9 @@ export const Header = () => (
     <Button text="Dodaj ogłoszenie" />
     <div className="header__search">
       <input type="text" />
-      <Button text="Szukaj" />
+      <button className="search__btn">
+        <i className="fa-solid fa-magnifying-glass"></i>
+      </button>
     </div>
   </header>
 );
