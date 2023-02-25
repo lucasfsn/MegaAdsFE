@@ -17,7 +17,7 @@ export const Header = () => {
       <h1 className="header__title">
         <span className="title__bold">Mega</span> Ogłoszenia
       </h1>
-      <Button text="Dodaj ogłoszenie" />
+      <Button to="/ad" text="Dodaj ogłoszenie" />
       <form className="header__search" onSubmit={setSearchFromLocalState}>
         <input
           type="text"
